@@ -45,6 +45,8 @@ function eliminarPropiedad (objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
+
+
   if(objeto[unaPropiedad] === undefined) { //opcion completa
     return objeto;
   } else {
@@ -57,12 +59,12 @@ function nuevoUsuario (nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
- var nuevoObjeto = { 
+ var usuario = { 
   nombre,
   email,
   password,
  };
-return nuevoObjeto;
+return usuario;
 }
 
 function tieneEmail (usuario) {
